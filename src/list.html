@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/jquery-pagination/pagination.css">
+  <link rel="stylesheet" href="./css/public.css">
+  <link rel="stylesheet" href="./css/list.css">
+</head>
+<body>
+  <div class="info filterinfo container">
+    <div class="panel panel-success">
+      <!-- <div class="panel-heading">分类</div> -->
+      <div class="panel-body">
+        <ul>
+          <li class="cateOneBox">
+            <div class="left hide">一级分类</div>
+            <div class="right">
+              <span class="active">大家电</span>
+              <span>其他</span>
+              <span>内衣</span>
+              <span>海外购</span>
+            </div>
+          </li>
+          <li class="catTwoBox hide">
+            <div class="left">二级分类</div>
+            <div class="right">
+              <span class="active">全部</span>
+            </div>
+          </li>
+          <li class="catThreeBox hide">
+            <div class="left">三级分类</div>
+            <div class="right">
+              <span class="active">全部</span>
+            </div>
+          </li>
+          <li class="sortBox">
+            <div class="left hide">排序方式</div>
+            <div class="right">
+              <span class="active" data-method="综合" data-type="ASC">综合</span>
+              <span data-method="价格" data-type="ASC">价格</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="info pagiInfo container">
+    <div class="panel panel-warning">
+      <div class="panel-body pagination m-style">
+      </div>
+    </div>
+  </div>
+
+  <div class="goodsList container">
+    <ul></ul>
+  </div>
+  <script src="./assets/jquery/jquery.min.js"></script>
+  <script src="./assets/jquery-pagination/jquery.paginatuon.js"></script>
+  <script src="./js/public.js"></script>
+  <script src="./js/list.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+}
+img{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.content {
+    margin-top: 30px;
+    .selectAll {
+        font-size: 20px;
+        position: relative;
+        input {
+            width: 20px;
+            height: 20px;
+          }
+          .text {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            font-weight: 700;
+            color: green;
+          }
+      }
+      .goodsList{
+          li {
+        height: 100px;
+        padding: 10px 0;
+        display: flex;
+        border: 1px solid #333;
+        margin-bottom: 10px;
+        .select {
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+          }
+          .goodsImg {
+            width: 100px;
+            margin-right: 20px;
+            // padding:0 20px;
+          }
+          .goodsDesc {
+            width: 300px;
+            padding: 10px 0;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            p {
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                overflow: hidden;
+              }
+          }
+          .price,.xiaoji{
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+          }
+          .count {
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button {
+                width: 30px;
+                height: 30px;
+              }
+              input {
+                width: 75px;
+                height: 33px;
+                text-align: center;
+                border: none;
+              }  
+          }
+          .operate {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+          }
+      }
+      li:last-child {
+        margin-bottom: 0;
+      }
+    }
+  } 
+  .buyInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buyInfo > .buyNum,
+  .buyInfo > .buyMoney,
+  .buyInfo > .operate {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  
+  .buyInfo > .buyNum > span,
+  .buyInfo > .buyMoney > span {
+    font-size: 30px;
+  }
+  

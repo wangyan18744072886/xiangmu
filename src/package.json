@@ -1,0 +1,27 @@
+{
+  "name": "xiangmu",
+  "version": "1.0.0",
+  "description": "```text\r   + assets                    资源文件夹(第三方资源)\r     + jquery\r     + ...\r   + css                       项目需要用到的 css 文件(自己书写)\r     - cart.css\r     ..\r   + images                    项目需要用到的 图片 文件(静态资源图片)\r   + js                        项目需要用到的 js 文件(自己书写)\r     - cart.js\r     ...\r   + server                    项目需要用到的 后端 接口书写(真实项目没有)\r   - cart.html                 购物车页面\r   - detail.html               商品详情页面\r   - index.html                首页\r   - list.html                 商品列表页面\r   - login.html                登录页面\r   ```",
+  "main": "banner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webserver": "^0.9.1",
+    "uglify": "^0.1.5"
+  },
+  "dependencies": {
+    "fsevents": "^1.2.13"
+  },
+  "keywords": []
+}
